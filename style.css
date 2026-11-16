@@ -243,30 +243,6 @@ h1 {
   line-height: 1.4;
 }
 
-.hero .btn-gold {
-  width: min(100%, 300px);
-  margin: 22px auto 0;
-  min-height: 50px;
-  border-radius: 999px;
-  background: linear-gradient(180deg, #efd48a 0%, #d4b15a 46%, #b8923a 100%);
-  color: #1a140c;
-  font-size: 0.84rem;
-  font-weight: 800;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.28);
-}
-
-.btn-gold:hover {
-  background: linear-gradient(180deg, #f3dc9a 0%, #dcb864 46%, #c49c44 100%);
-  color: #1a140c;
-}
-
-.btn-gold:active {
-  background: #c4a04a;
-  color: #1a140c;
-}
-
 .creed {
   margin-top: 26px;
   padding: 28px 16px 24px;
@@ -344,19 +320,37 @@ h1 {
   background: var(--blue-press);
 }
 
+.hero .btn-primary {
+  background: linear-gradient(180deg, #efd48a 0%, #d4b15a 48%, #b8923a 100%);
+  color: #1a140c;
+  border-color: transparent;
+}
+
+.hero .btn-primary:hover {
+  background: linear-gradient(180deg, #f3dc9a 0%, #dcb864 48%, #c49c44 100%);
+  color: #1a140c;
+}
+
+.hero .btn-primary:active {
+  background: #c4a04a;
+  color: #1a140c;
+}
+
 .hero .btn-secondary {
   background: transparent;
-  color: var(--white);
-  border-color: rgba(255, 255, 255, 0.4);
+  color: #e6d3a1;
+  border-color: rgba(212, 177, 90, 0.72);
 }
 
 .hero .btn-secondary:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.65);
+  background: rgba(212, 177, 90, 0.12);
+  border-color: #e6d3a1;
+  color: #f3e6c4;
 }
 
 .hero .btn-secondary:active {
-  background: rgba(255, 255, 255, 0.14);
+  background: rgba(212, 177, 90, 0.22);
+  color: #f3e6c4;
 }
 
 .action-row .btn {
@@ -790,10 +784,6 @@ main {
   .hero-sub,
   .hero-affiliation {
     font-size: 0.9rem;
-  }
-
-  .btn-gold {
-    margin-top: 14px;
   }
 
   .creed {
