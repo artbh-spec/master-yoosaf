@@ -25,7 +25,7 @@ const SITE = {
   },
   enquiryMessage: "Hello Master Mohamed Yoosaf M.V, I would like to enquire about training.",
   shareText: "Master Mohamed Yoosaf M.V — 4th Dan Black Belt and Senior Taekwondo Instructor.",
-  vcardNote: "4th Dan Black Belt. National Player. National Referee. Senior Taekwondo Instructor. 15 years of Taekwondo experience. Coached 10-20 students for the Kerala State Team. 40 students advanced to Black Belt. National Best Referee Award holder. Kerala State Gold Medalist. Excellent Taekwondo Academy, Bahrain.",
+  vcardNote: "4th Dan Black Belt. National Player. National Referee. Senior Taekwondo Instructor. Kerala Team Coach. 15 years of Taekwondo experience. 40 students advanced to Black Belt. National Best Referee Award holder. Kerala State Gold Medalist. Excellent Taekwondo Academy, Bahrain.",
   vcardFilename: "Master-Mohamed-Yoosaf-MV.vcf",
   /**
    * Real photographs only. Leave this empty to keep the gallery hidden.
