@@ -29,10 +29,43 @@ const SITE = {
   vcardFilename: "Master-Mohamed-Yoosaf-MV.vcf",
   /**
    * Real photographs only. Leave this empty to keep the gallery hidden.
-   * Example:
-   * { src: "assets/gallery/coaching.jpg", alt: "Master Mohamed Yoosaf M.V coaching.", caption: "Coaching", width: 1200, height: 900 }
+   * Paths must start with assets/gallery/. group is the section heading.
    */
-  gallery: []
+  gallery: [
+    { group: "Recognition", src: "assets/gallery/kerala-championship-honour.jpg", alt: "Master Mohamed Yoosaf M.V receiving a plaque at the Kerala State Kiddies, Sub Junior and Open Taekwondo Championship.", caption: "Kerala State Championship honour", width: 1600, height: 1067 },
+    { group: "Recognition", src: "assets/gallery/championship-trophies.jpg", alt: "Master Mohamed Yoosaf M.V with championship trophies and a certificate on the competition floor.", caption: "Championship trophies", width: 1320, height: 1397 },
+    { group: "Recognition", src: "assets/gallery/ready-stance.jpg", alt: "Master Mohamed Yoosaf M.V in a white dobok and black belt, in a ready stance.", caption: "4th Dan ready stance", width: 924, height: 1600 },
+
+    { group: "Coaching", src: "assets/gallery/form-correction.jpg", alt: "Master Mohamed Yoosaf M.V correcting a student's arm position during class.", caption: "Correcting technique", width: 1600, height: 1200 },
+    { group: "Coaching", src: "assets/gallery/stance-guidance.jpg", alt: "Master Mohamed Yoosaf M.V guiding a student's stance on the training mats.", caption: "Guiding a student's stance", width: 1600, height: 1200 },
+    { group: "Coaching", src: "assets/gallery/student-bow.jpg", alt: "Master Mohamed Yoosaf M.V bowing with a student at Excellent Taekwondo Academy.", caption: "A bow with a student", width: 768, height: 1364 },
+    { group: "Coaching", src: "assets/gallery/target-kick.jpg", alt: "A student kicking a target held by Master Mohamed Yoosaf M.V.", caption: "Target kick practice", width: 1600, height: 1066 },
+    { group: "Coaching", src: "assets/gallery/pad-kicks.jpg", alt: "Master Mohamed Yoosaf M.V holding focus pads for a student's kick.", caption: "Pad work", width: 1244, height: 1066 },
+    { group: "Coaching", src: "assets/gallery/turning-kick.jpg", alt: "Master Mohamed Yoosaf M.V coaching a student through a turning kick.", caption: "Turning kick practice", width: 1600, height: 1066 },
+    { group: "Coaching", src: "assets/gallery/child-sparring.jpg", alt: "Master Mohamed Yoosaf M.V coaching two children in sparring gear.", caption: "Children's sparring", width: 1320, height: 1257 },
+    { group: "Coaching", src: "assets/gallery/sparring-class.jpg", alt: "Master Mohamed Yoosaf M.V with a sparring class in chest guards at Excellent Taekwondo Academy.", caption: "Sparring class", width: 1024, height: 768 },
+
+    { group: "Students", src: "assets/gallery/poomsae-gold.jpg", alt: "Master Mohamed Yoosaf M.V with a student holding a poomsae gold medal and certificate.", caption: "Poomsae gold medal", width: 1587, height: 1600 },
+    { group: "Students", src: "assets/gallery/coach-and-student.jpg", alt: "Master Mohamed Yoosaf M.V standing with a student after training.", caption: "After training", width: 871, height: 1600 },
+    { group: "Students", src: "assets/gallery/young-student.jpg", alt: "A young student in a white dobok at Excellent Taekwondo Academy.", caption: "A young student", width: 1200, height: 1600 },
+    { group: "Students", src: "assets/gallery/little-students.jpg", alt: "Four young students in doboks standing together at the academy.", caption: "Children's class", width: 1600, height: 1200 },
+    { group: "Students", src: "assets/gallery/championship-children.jpg", alt: "Young students with medals at the 11th Excellent Taekwondo Championship.", caption: "11th Academy Championship", width: 1227, height: 1600 },
+    { group: "Students", src: "assets/gallery/belt-presentation.jpg", alt: "Master Mohamed Yoosaf M.V presenting a green belt at Excellent Taekwondo Academy.", caption: "Belt presentation", width: 1200, height: 1600 },
+    { group: "Students", src: "assets/gallery/yellow-belt-certificate.jpg", alt: "Master Mohamed Yoosaf M.V presenting a yellow belt certificate.", caption: "Yellow belt certificate", width: 900, height: 1600 },
+    { group: "Students", src: "assets/gallery/belt-certificates.jpg", alt: "Students holding belt promotion certificates with Master Mohamed Yoosaf M.V.", caption: "Belt promotion certificates", width: 1155, height: 1600 },
+    { group: "Students", src: "assets/gallery/promotion-trophy.jpg", alt: "Master Mohamed Yoosaf M.V with students holding a promotion trophy and certificates.", caption: "Promotion trophy", width: 1600, height: 1363 },
+
+    { group: "Competition", src: "assets/gallery/bahrain-medal-team.jpg", alt: "Master Mohamed Yoosaf M.V with medal-winning students in front of a Bahrain sign.", caption: "Medal winners in Bahrain", width: 1600, height: 1200 },
+    { group: "Competition", src: "assets/gallery/bahrain-medal-line.jpg", alt: "Master Mohamed Yoosaf M.V with students showing medals at the Bahrain School Games.", caption: "Bahrain School Games", width: 1600, height: 1200 },
+    { group: "Competition", src: "assets/gallery/school-games-podium.jpg", alt: "Students on the podium with medals at the 6th School Games in Bahrain.", caption: "6th School Games podium", width: 1600, height: 900 },
+    { group: "Competition", src: "assets/gallery/academy-medals.jpg", alt: "Master Mohamed Yoosaf M.V with students wearing competition medals at the academy.", caption: "Competition medals", width: 1600, height: 1200 },
+
+    { group: "Academy", src: "assets/gallery/masters-and-students.jpg", alt: "Master Mohamed Yoosaf M.V with masters and students at Excellent Taekwondo Academy.", caption: "Masters and students", width: 1486, height: 1600 },
+    { group: "Academy", src: "assets/gallery/academy-families.jpg", alt: "Students, families, and instructors together at Excellent Taekwondo Academy.", caption: "Students and families", width: 1600, height: 1200 },
+    { group: "Academy", src: "assets/gallery/promotion-test.jpg", alt: "A large group of students at a belt promotion test at Excellent Taekwondo Academy.", caption: "Belt promotion test", width: 1600, height: 900 },
+    { group: "Academy", src: "assets/gallery/seminar-hall.jpg", alt: "Students seated in rows during a Taekwondo seminar in a large hall.", caption: "Taekwondo seminar", width: 1318, height: 1600 },
+    { group: "Academy", src: "assets/gallery/with-practitioners.jpg", alt: "Master Mohamed Yoosaf M.V with two fellow practitioners at Excellent Taekwondo Academy.", caption: "With fellow practitioners", width: 1200, height: 1600 }
+  ]
 };
 
 function digitsOnly(value) {
@@ -196,37 +229,227 @@ function isSafeGallerySrc(src) {
   return typeof src === "string" && /^assets\/gallery\/[A-Za-z0-9._/-]+$/.test(src);
 }
 
+function galleryItems() {
+  return (Array.isArray(SITE.gallery) ? SITE.gallery : []).filter(function (item) {
+    return item && isSafeGallerySrc(item.src);
+  });
+}
+
+function galleryGroups(items) {
+  const order = [];
+  const map = {};
+  items.forEach(function (item) {
+    const name = item.group ? String(item.group) : "Photographs";
+    if (!map[name]) {
+      map[name] = [];
+      order.push(name);
+    }
+    map[name].push(item);
+  });
+  return order.map(function (name) {
+    return { name: name, items: map[name] };
+  });
+}
+
+function galleryImage(item) {
+  const img = document.createElement("img");
+  img.src = item.src;
+  img.alt = item.alt ? String(item.alt) : "Photograph of Master Mohamed Yoosaf M.V";
+  img.loading = "lazy";
+  img.decoding = "async";
+  return img;
+}
+
+let lightboxItems = [];
+let lightboxIndex = 0;
+let lightboxReturn = null;
+
+function ensureLightbox() {
+  let box = document.querySelector("[data-lightbox]");
+  if (box) return box;
+  box = document.createElement("div");
+  box.className = "lightbox";
+  box.hidden = true;
+  box.setAttribute("data-lightbox", "");
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-modal", "true");
+  box.setAttribute("aria-label", "Photograph");
+
+  const frame = document.createElement("div");
+  frame.className = "lightbox-frame";
+
+  const img = document.createElement("img");
+  img.alt = "";
+  img.setAttribute("data-lightbox-img", "");
+
+  const caption = document.createElement("p");
+  caption.className = "lightbox-caption";
+  caption.setAttribute("data-lightbox-caption", "");
+
+  const close = document.createElement("button");
+  close.type = "button";
+  close.className = "lightbox-close";
+  close.textContent = "Close";
+  close.addEventListener("click", closeLightbox);
+
+  const prev = document.createElement("button");
+  prev.type = "button";
+  prev.className = "lightbox-nav lightbox-prev";
+  prev.setAttribute("aria-label", "Previous photograph");
+  prev.textContent = "Previous";
+  prev.addEventListener("click", function () {
+    showLightboxAt(lightboxIndex - 1);
+  });
+
+  const next = document.createElement("button");
+  next.type = "button";
+  next.className = "lightbox-nav lightbox-next";
+  next.setAttribute("aria-label", "Next photograph");
+  next.textContent = "Next";
+  next.addEventListener("click", function () {
+    showLightboxAt(lightboxIndex + 1);
+  });
+
+  frame.appendChild(close);
+  frame.appendChild(prev);
+  frame.appendChild(img);
+  frame.appendChild(next);
+  frame.appendChild(caption);
+  box.appendChild(frame);
+  box.addEventListener("click", function (event) {
+    if (event.target === box) closeLightbox();
+  });
+  document.body.appendChild(box);
+  return box;
+}
+
+function showLightboxAt(index) {
+  if (!lightboxItems.length) return;
+  const count = lightboxItems.length;
+  lightboxIndex = (index + count) % count;
+  const item = lightboxItems[lightboxIndex];
+  const box = ensureLightbox();
+  const img = box.querySelector("[data-lightbox-img]");
+  const caption = box.querySelector("[data-lightbox-caption]");
+  img.src = item.src;
+  img.alt = item.alt ? String(item.alt) : "Photograph of Master Mohamed Yoosaf M.V";
+  caption.textContent = item.caption ? String(item.caption) : "";
+  box.hidden = false;
+  document.body.classList.add("lightbox-open");
+  const close = box.querySelector(".lightbox-close");
+  if (close) close.focus();
+}
+
+function openLightbox(items, index, returnTo) {
+  lightboxItems = items;
+  lightboxReturn = returnTo || null;
+  showLightboxAt(index);
+}
+
+function closeLightbox() {
+  const box = document.querySelector("[data-lightbox]");
+  if (!box || box.hidden) return;
+  box.hidden = true;
+  document.body.classList.remove("lightbox-open");
+  const img = box.querySelector("[data-lightbox-img]");
+  if (img) img.removeAttribute("src");
+  if (lightboxReturn && lightboxReturn.focus) lightboxReturn.focus();
+  lightboxReturn = null;
+}
+
+function renderCategories(list, groups) {
+  list.replaceChildren();
+  groups.forEach(function (group) {
+    const cover = group.items[0];
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "gallery-card";
+    button.setAttribute("aria-label", group.name + ", " + group.items.length + " photographs");
+    button.appendChild(galleryImage(cover));
+
+    const label = document.createElement("span");
+    label.className = "gallery-card-label";
+    const title = document.createElement("span");
+    title.className = "gallery-card-title";
+    title.textContent = group.name;
+    const count = document.createElement("span");
+    count.className = "gallery-count";
+    count.textContent = group.items.length + "+";
+    label.appendChild(title);
+    label.appendChild(count);
+    button.appendChild(label);
+    button.addEventListener("click", function () {
+      renderCategory(list, groups, group);
+    });
+    list.appendChild(button);
+  });
+}
+
+function renderCategory(list, groups, group) {
+  list.replaceChildren();
+  const panel = document.createElement("div");
+  panel.className = "gallery-open";
+
+  const back = document.createElement("button");
+  back.type = "button";
+  back.className = "gallery-back";
+  back.textContent = "All categories";
+  back.addEventListener("click", function () {
+    renderCategories(list, groups);
+  });
+
+  const title = document.createElement("h3");
+  title.className = "gallery-open-title";
+  title.textContent = group.name;
+
+  const count = document.createElement("p");
+  count.className = "gallery-open-count";
+  count.textContent = group.items.length + "+ photographs";
+
+  const thumbs = document.createElement("div");
+  thumbs.className = "gallery-thumbs";
+  group.items.forEach(function (item, index) {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "gallery-thumb";
+    button.setAttribute("aria-label", item.caption ? String(item.caption) : "Open photograph");
+    button.appendChild(galleryImage(item));
+    button.addEventListener("click", function () {
+      openLightbox(group.items, index, button);
+    });
+    thumbs.appendChild(button);
+  });
+
+  panel.appendChild(back);
+  panel.appendChild(title);
+  panel.appendChild(count);
+  panel.appendChild(thumbs);
+  list.appendChild(panel);
+  back.focus();
+}
+
 function renderGallery() {
   const section = document.querySelector("[data-gallery]");
   if (!section) return;
-  const items = (Array.isArray(SITE.gallery) ? SITE.gallery : []).filter(function (item) {
-    return item && isSafeGallerySrc(item.src);
-  });
+  const items = galleryItems();
   if (!items.length) {
     section.hidden = true;
     return;
   }
   const list = section.querySelector("[data-gallery-list]");
   if (!list) return;
-  list.replaceChildren();
-  items.forEach(function (item) {
-    const figure = document.createElement("figure");
-    const img = document.createElement("img");
-    img.src = item.src;
-    img.alt = item.alt ? String(item.alt) : "Photograph of Master Mohamed Yoosaf M.V";
-    img.loading = "lazy";
-    img.decoding = "async";
-    if (Number(item.width) > 0) img.width = Number(item.width);
-    if (Number(item.height) > 0) img.height = Number(item.height);
-    figure.appendChild(img);
-    if (item.caption) {
-      const caption = document.createElement("figcaption");
-      caption.textContent = String(item.caption);
-      figure.appendChild(caption);
-    }
-    list.appendChild(figure);
-  });
+  renderCategories(list, galleryGroups(items));
   section.hidden = false;
+  if (!section.hasAttribute("data-gallery-keys")) {
+    section.setAttribute("data-gallery-keys", "");
+    document.addEventListener("keydown", function (event) {
+      const box = document.querySelector("[data-lightbox]");
+      if (!box || box.hidden) return;
+      if (event.key === "Escape") closeLightbox();
+      if (event.key === "ArrowRight") showLightboxAt(lightboxIndex + 1);
+      if (event.key === "ArrowLeft") showLightboxAt(lightboxIndex - 1);
+    });
+  }
 }
 
 let toastTimer = 0;
