@@ -33,7 +33,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Outfit:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
-  <link rel="preload" as="image" href="assets/master-portrait.jpg" fetchpriority="high">
+  <link rel="preload" as="image" href="assets/hero-portrait.jpg" fetchpriority="high">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
   {
@@ -43,8 +43,8 @@
     "jobTitle": "Taekwondo Master",
     "email": "mohmaedyoosafm.v@gmail.com",
     "telephone": "+97335313206",
-    "image": "assets/master-portrait.jpg",
-    "award": ["National Best Referee Award", "Kerala State Gold Medalist"],
+    "image": "assets/hero-portrait.jpg",
+    "award": ["National Player", "National Best Referee Award", "Kerala State Gold Medalist"],
     "sameAs": "https://www.instagram.com/yoosafashraf/",
     "affiliation": {
       "@type": "SportsOrganization",
@@ -133,15 +133,12 @@
 
   <div class="shell" id="top">
     <header class="topbar">
-      <a class="brand" href="#top">
-        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
-          <circle cx="7.2" cy="4.2" r="1.7" fill="currentColor"/>
-          <path d="M7.4 6.1 6.2 12.2 3.2 13.4M6.2 12.2l4.4 1.3 1.4 5.3M10.6 13.5 16.4 8.6 20.2 9.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-        <span>Taekwondo</span>
-      </a>
+      <a class="brand" href="#top">Taekwondo</a>
       <input class="nav-toggle" id="nav-toggle" type="checkbox">
-      <label class="nav-burger" for="nav-toggle"><span>Menu</span></label>
+      <label class="nav-burger" for="nav-toggle">
+        <span class="menu-open">Menu</span>
+        <span class="menu-close">Close</span>
+      </label>
       <nav class="nav" aria-label="Primary">
         <a href="#top" aria-current="page">Home</a>
         <a href="#profile">About</a>
@@ -158,12 +155,20 @@
     </header>
 
     <section class="hero story" id="profile" aria-labelledby="profile-name">
+      <div class="story-photo">
+        <img
+          src="assets/hero-portrait.jpg"
+          width="935"
+          height="1024"
+          alt="Master Mohamed Yoosaf M.V in a white Taekwondo uniform and black belt, shown from the front and from the back."
+          fetchpriority="high">
+      </div>
       <div class="story-copy">
         <h1 id="profile-name" translate="no">
           <span class="name-kicker">Master</span>
-          <span class="name-main">Mohamed<br>Yoosaf M.V</span>
+          <span class="name-main">Mohamed<br>Yoosaf<br>M.V</span>
         </h1>
-        <p class="showcase-rank">4th Dan Black Belt · Senior Taekwondo Instructor</p>
+        <p class="showcase-rank">4th Dan Black Belt · National Player · Senior Taekwondo Instructor</p>
         <p class="showcase-creed">Discipline · Respect · Excellence</p>
         <ul class="marks">
           <li>
@@ -172,6 +177,10 @@
           </li>
           <li>
             <svg class="icon" width="22" height="22" aria-hidden="true" focusable="false"><use href="#i-medal"></use></svg>
+            <span>National<br>Player</span>
+          </li>
+          <li>
+            <svg class="icon" width="22" height="22" aria-hidden="true" focusable="false"><use href="#i-flag"></use></svg>
             <span>National<br>Referee</span>
           </li>
           <li>
@@ -184,25 +193,16 @@
           <div>
             <p class="kicker">About me</p>
             <h2 id="about-title">A Journey of Discipline and Dedication</h2>
-            <p>Master Mohamed Yoosaf M.V is a 4th Dan Black Belt, Senior Instructor and Physical Education Teacher with 15 years of Taekwondo experience at Excellent Taekwondo Academy, Bahrain.</p>
+            <p>Master Mohamed Yoosaf M.V is a 4th Dan Black Belt, National Player, Senior Instructor and Physical Education Teacher with 15 years of Taekwondo experience at Excellent Taekwondo Academy, Bahrain.</p>
             <a class="pill pill-small" href="#biography">Learn More</a>
           </div>
         </div>
-      </div>
-      <div class="story-photo">
-        <img
-          src="assets/master-portrait.jpg"
-          width="831"
-          height="1024"
-          alt="Portrait of Master Mohamed Yoosaf M.V in a white Taekwondo uniform and black belt."
-          fetchpriority="high">
       </div>
     </section>
 
     <section class="highlights" aria-label="Highlights">
       <div class="hero-board">
-        <section class="panel-card panel-split" id="achievements" aria-labelledby="rail-achievements">
-          <div class="panel-main">
+        <section class="panel-card" id="achievements" aria-labelledby="rail-achievements">
           <div class="panel-head">
             <h2 id="rail-achievements">My Achievements</h2>
             <p>Striving for Excellence</p>
@@ -211,6 +211,10 @@
             <li>
               <svg class="icon" width="18" height="18" aria-hidden="true" focusable="false"><use href="#i-belt"></use></svg>
               <span>4th Dan Black Belt</span>
+            </li>
+            <li>
+              <svg class="icon" width="18" height="18" aria-hidden="true" focusable="false"><use href="#i-medal"></use></svg>
+              <span>National Player</span>
             </li>
             <li>
               <svg class="icon" width="18" height="18" aria-hidden="true" focusable="false"><use href="#i-medal"></use></svg>
@@ -225,8 +229,6 @@
               <span>Kerala Team Coach</span>
             </li>
           </ul>
-          </div>
-          <img class="panel-aside" src="assets/gallery/championship-trophies.jpg" alt="Championship trophies.">
         </section>
 
         <section class="panel-card panel-photo" id="specialties" style="--panel-image: url('assets/gallery/turning-kick.jpg')" aria-labelledby="rail-coaching">

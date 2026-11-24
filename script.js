@@ -24,7 +24,7 @@ const SITE = {
     url: "https://www.instagram.com/yoosafashraf/"
   },
   enquiryMessage: "Hello Master Mohamed Yoosaf M.V, I would like to enquire about training.",
-  shareText: "Master Mohamed Yoosaf M.V — 4th Dan Black Belt and Senior Taekwondo Instructor.",
+  shareText: "Master Mohamed Yoosaf M.V — 4th Dan Black Belt, National Player and Senior Taekwondo Instructor.",
   vcardNote: "4th Dan Black Belt. National Player. National Referee. Senior Taekwondo Instructor. Kerala Team Coach. 15 years of Taekwondo experience. 40 students advanced to Black Belt. National Best Referee Award holder. Kerala State Gold Medalist. Excellent Taekwondo Academy, Bahrain.",
   vcardFilename: "Master-Mohamed-Yoosaf-MV.vcf",
   /**
@@ -33,7 +33,6 @@ const SITE = {
    */
   gallery: [
     { group: "Recognition", src: "assets/gallery/kerala-championship-honour.jpg", alt: "Master Mohamed Yoosaf M.V receiving a plaque at the Kerala State Kiddies, Sub Junior and Open Taekwondo Championship.", caption: "Kerala State Championship honour", width: 1600, height: 1067 },
-    { group: "Recognition", src: "assets/gallery/championship-trophies.jpg", alt: "Master Mohamed Yoosaf M.V with championship trophies and a certificate on the competition floor.", caption: "Championship trophies", width: 1320, height: 1397 },
     { group: "Recognition", src: "assets/gallery/ready-stance.jpg", alt: "Master Mohamed Yoosaf M.V in a white dobok and black belt, in a ready stance.", caption: "4th Dan ready stance", width: 924, height: 1600 },
 
     { group: "Coaching", src: "assets/gallery/form-correction.jpg", alt: "Master Mohamed Yoosaf M.V correcting a student's arm position during class.", caption: "Correcting technique", width: 1600, height: 1200 },
