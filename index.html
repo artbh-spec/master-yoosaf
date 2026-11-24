@@ -6,8 +6,8 @@
   <title>Master Mohamed Yoosaf M.V | Taekwondo Master</title>
   <meta name="description" content="Master Mohamed Yoosaf M.V, 4th Dan Black Belt and Senior Taekwondo Instructor at Excellent Taekwondo Academy, Bahrain, with 15 years of Taekwondo experience.">
   <meta name="author" content="Master Mohamed Yoosaf M.V">
-  <meta name="theme-color" content="#101D35">
-  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#0b0a09">
+  <meta name="color-scheme" content="dark">
   <meta name="format-detection" content="telephone=no">
   <meta property="og:type" content="profile">
   <meta property="og:locale" content="en_US">
@@ -30,6 +30,9 @@
     <meta name="twitter:image:alt" content="Portrait of Master Mohamed Yoosaf M.V in a white Taekwondo uniform and black belt.">
   -->
   <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Outfit:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/master-portrait.jpg" fetchpriority="high">
   <link rel="stylesheet" href="style.css">
   <script type="application/ld+json">
@@ -48,7 +51,7 @@
       "name": "Excellent Taekwondo Academy",
       "areaServed": "Bahrain"
     },
-    "description": "Master Mohamed Yoosaf M.V is a dedicated Taekwondo Master, Senior Instructor and Physical Education Teacher with 15 years of experience in Taekwondo. Holding a 4th Dan Black Belt, he is a National Kyorugi Referee, National Best Referee Award Holder, National Taekwondo Player and Kerala State Gold Medalist.",
+    "description": "Master Mohamed Yoosaf M.V is a dedicated Taekwondo Master, Senior Instructor and Physical Education Teacher with 15 years of experience in Taekwondo. Holding a 4th Dan Black Belt, he is a National Kyorugi Referee, National Best Referee Award Holder, National Taekwondo Player and Kerala State Gold Medalist. Forty students have advanced to black belt under his coaching.",
     "knowsAbout": ["Taekwondo", "Poomsae", "Kyorugi", "Physical education"]
   }
   </script>
@@ -128,10 +131,65 @@
     </symbol>
   </svg>
 
-  <header class="hero">
-    <div class="wrap hero-sheet">
-      <p class="hero-kicker">Master Profile</p>
-      <div class="portrait">
+  <div class="shell" id="top">
+    <header class="topbar">
+      <a class="brand" href="#top">
+        <svg class="brand-mark" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+          <circle cx="7.2" cy="4.2" r="1.7" fill="currentColor"/>
+          <path d="M7.4 6.1 6.2 12.2 3.2 13.4M6.2 12.2l4.4 1.3 1.4 5.3M10.6 13.5 16.4 8.6 20.2 9.8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>Taekwondo</span>
+      </a>
+      <input class="nav-toggle" id="nav-toggle" type="checkbox">
+      <label class="nav-burger" for="nav-toggle"><span>Menu</span></label>
+      <nav class="nav" aria-label="Primary">
+        <a href="#top" aria-current="page">Home</a>
+        <a href="#profile">About</a>
+        <a href="#achievements">Achievements</a>
+        <a href="#specialties">Coaching</a>
+        <a href="#programs">Programs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+        <a class="nav-cta" href="#contact">
+          <svg class="icon" width="16" height="16" aria-hidden="true" focusable="false"><use href="#i-chat"></use></svg>
+          Get in Touch
+        </a>
+      </nav>
+    </header>
+
+    <section class="hero story" id="profile" aria-labelledby="profile-name">
+      <div class="story-copy">
+        <h1 id="profile-name" translate="no">
+          <span class="name-kicker">Master</span>
+          <span class="name-main">Mohamed<br>Yoosaf M.V</span>
+        </h1>
+        <p class="showcase-rank">4th Dan Black Belt · Senior Taekwondo Instructor</p>
+        <p class="showcase-creed">Discipline · Respect · Excellence</p>
+        <ul class="marks">
+          <li>
+            <svg class="icon" width="22" height="22" aria-hidden="true" focusable="false"><use href="#i-belt"></use></svg>
+            <span>4th Dan<br>Black Belt</span>
+          </li>
+          <li>
+            <svg class="icon" width="22" height="22" aria-hidden="true" focusable="false"><use href="#i-medal"></use></svg>
+            <span>National<br>Referee</span>
+          </li>
+          <li>
+            <svg class="icon" width="22" height="22" aria-hidden="true" focusable="false"><use href="#i-board"></use></svg>
+            <span>Taekwondo<br>Instructor</span>
+          </li>
+        </ul>
+        <div class="story-about">
+          <img src="assets/gallery/ready-stance.jpg" width="924" height="1600" alt="Master Mohamed Yoosaf M.V in a ready stance.">
+          <div>
+            <p class="kicker">About me</p>
+            <h2 id="about-title">A Journey of Discipline and Dedication</h2>
+            <p>Master Mohamed Yoosaf M.V is a 4th Dan Black Belt, Senior Instructor and Physical Education Teacher with 15 years of Taekwondo experience at Excellent Taekwondo Academy, Bahrain.</p>
+            <a class="pill pill-small" href="#biography">Learn More</a>
+          </div>
+        </div>
+      </div>
+      <div class="story-photo">
         <img
           src="assets/master-portrait.jpg"
           width="831"
@@ -139,213 +197,160 @@
           alt="Portrait of Master Mohamed Yoosaf M.V in a white Taekwondo uniform and black belt."
           fetchpriority="high">
       </div>
-      <div class="identity">
-        <h1 id="profile-name" translate="no">Master Mohamed Yoosaf M.V</h1>
-        <hr class="rule">
-        <p class="rank">4th Dan Black Belt</p>
-        <p class="hero-role">Physical Education Teacher</p>
-        <p class="hero-sub">Kerala Team Coach · National Kyorugi Referee</p>
-        <p class="hero-line">15 Years of Taekwondo Experience</p>
-        <p class="hero-affiliation">Excellent Taekwondo Academy · Bahrain</p>
-        <div class="actions" role="group" aria-label="Contact actions">
-          <a class="btn btn-primary" href="contact.vcf" download="Master-Mohamed-Yoosaf-MV.vcf" data-save-contact>
-            <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-card"></use></svg>
-            Save Contact
-          </a>
-          <div class="action-row is-trio" data-quick-actions>
-            <a class="btn btn-secondary" data-tel href="tel:+97335313206" aria-label="Call +973 35313206">
-              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-phone"></use></svg>
-              Call
-            </a>
-            <a class="btn btn-secondary" data-whatsapp href="https://wa.me/97335313206" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +973 35313206">
-              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-chat"></use></svg>
-              WhatsApp
-            </a>
-            <a class="btn btn-secondary" data-mail href="mailto:mohmaedyoosafm.v@gmail.com" aria-label="Email mohmaedyoosafm.v@gmail.com">
-              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg>
-              Email
-            </a>
+    </section>
+
+    <section class="highlights" aria-label="Highlights">
+      <div class="hero-board">
+        <section class="panel-card panel-split" id="achievements" aria-labelledby="rail-achievements">
+          <div class="panel-main">
+          <div class="panel-head">
+            <h2 id="rail-achievements">My Achievements</h2>
+            <p>Striving for Excellence</p>
           </div>
-          <button class="btn btn-secondary" type="button" data-share hidden>
-            <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-share"></use></svg>
-            Share Profile
-          </button>
-        </div>
+          <ul class="achieve-row">
+            <li>
+              <svg class="icon" width="18" height="18" aria-hidden="true" focusable="false"><use href="#i-belt"></use></svg>
+              <span>4th Dan Black Belt</span>
+            </li>
+            <li>
+              <svg class="icon" width="18" height="18" aria-hidden="true" focusable="false"><use href="#i-medal"></use></svg>
+              <span>National Best Referee</span>
+            </li>
+            <li>
+              <svg class="icon" width="18" height="18" aria-hidden="true" focusable="false"><use href="#i-flag"></use></svg>
+              <span>Kerala State Gold Medalist</span>
+            </li>
+            <li>
+              <svg class="icon" width="18" height="18" aria-hidden="true" focusable="false"><use href="#i-team"></use></svg>
+              <span>Kerala Team Coach</span>
+            </li>
+          </ul>
+          </div>
+          <img class="panel-aside" src="assets/gallery/championship-trophies.jpg" alt="Championship trophies.">
+        </section>
+
+        <section class="panel-card panel-photo" id="specialties" style="--panel-image: url('assets/gallery/turning-kick.jpg')" aria-labelledby="rail-coaching">
+          <div class="panel-head">
+            <h2 id="rail-coaching">Coaching Specialties</h2>
+            <p>Train · Learn · Grow</p>
+          </div>
+          <ul class="icon-row">
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-team"></use></svg>
+              <span>Kyorugi</span>
+            </li>
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-form"></use></svg>
+              <span>Poomsae</span>
+            </li>
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-shield"></use></svg>
+              <span>Self-Defense</span>
+            </li>
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-child"></use></svg>
+              <span>Kids Training</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="panel-card panel-photo" id="programs" style="--panel-image: url('assets/gallery/little-students.jpg')" aria-labelledby="rail-programs">
+          <div class="panel-head">
+            <h2 id="rail-programs">Training Programs</h2>
+            <p>For All Age Groups</p>
+          </div>
+          <ul class="icon-row">
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-child"></use></svg>
+              <span>Kids</span>
+            </li>
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-person"></use></svg>
+              <span>Juniors</span>
+            </li>
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-strength"></use></svg>
+              <span>Adults</span>
+            </li>
+            <li>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-medal"></use></svg>
+              <span>Competition</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="panel-card gallery-bar" aria-labelledby="rail-gallery">
+          <div class="gallery-bar-copy">
+            <h2 id="rail-gallery">Gallery</h2>
+            <p>Moments of Excellence</p>
+            <a class="pill pill-small" href="#gallery">View More</a>
+          </div>
+          <div class="mini-gallery">
+            <img src="assets/gallery/kerala-championship-honour.jpg" alt="Honour at the Kerala State Taekwondo Championship.">
+            <img src="assets/gallery/sparring-class.jpg" alt="Sparring class at Excellent Taekwondo Academy.">
+            <img src="assets/gallery/school-games-podium.jpg" alt="Students on the podium at the Bahrain School Games.">
+          </div>
+        </section>
+
+        <section class="panel-card panel-photo contact-panel" id="contact" style="--panel-image: url('assets/gallery/target-kick.jpg')" aria-labelledby="rail-contact">
+          <div class="panel-head">
+            <h2 id="rail-contact">Get in Touch</h2>
+            <p>Let's Connect</p>
+          </div>
+          <ul class="touch-list">
+            <li>
+              <svg class="icon" width="16" height="16" aria-hidden="true" focusable="false"><use href="#i-phone"></use></svg>
+              <a data-tel data-phone-text href="tel:+97335313206" translate="no">+973 35313206</a>
+            </li>
+            <li>
+              <svg class="icon" width="16" height="16" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg>
+              <a data-mail data-email-text href="mailto:mohmaedyoosafm.v@gmail.com" translate="no">mohmaedyoosafm.v@gmail.com</a>
+            </li>
+            <li>
+              <svg class="icon" width="16" height="16" aria-hidden="true" focusable="false"><use href="#i-flag"></use></svg>
+              <span>Bahrain</span>
+            </li>
+          </ul>
+          <a class="pill pill-small" data-enquiry="Hello Master Mohamed Yoosaf M.V, I would like to get in touch." href="https://wa.me/97335313206?text=Hello%20Master%20Mohamed%20Yoosaf%20M.V%2C%20I%20would%20like%20to%20get%20in%20touch." target="_blank" rel="noopener noreferrer">Send Message</a>
+          <div class="actions" role="group" aria-label="Contact actions">
+            <a class="btn btn-secondary" href="contact.vcf" download="Master-Mohamed-Yoosaf-MV.vcf" data-save-contact>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-card"></use></svg>
+              Save Contact
+            </a>
+            <div class="action-row is-trio" data-quick-actions>
+              <a class="btn btn-secondary" data-tel href="tel:+97335313206" aria-label="Call +973 35313206">
+                <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-phone"></use></svg>
+                Call
+              </a>
+              <a class="btn btn-secondary" data-mail href="mailto:mohmaedyoosafm.v@gmail.com" aria-label="Email mohmaedyoosafm.v@gmail.com">
+                <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg>
+                Email
+              </a>
+              <a class="btn btn-secondary" data-instagram href="https://www.instagram.com/yoosafashraf/" target="_blank" rel="noopener noreferrer">
+                <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-instagram"></use></svg>
+                Instagram
+              </a>
+            </div>
+            <button class="btn btn-secondary" type="button" data-share hidden>
+              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-share"></use></svg>
+              Share Profile
+            </button>
+          </div>
+          <noscript>
+            <p class="noscript-note">Call, email, Instagram, and Save Contact work in this browser. To share the profile, copy the page address.</p>
+          </noscript>
+        </section>
       </div>
-    </div>
-    <div class="creed">
-      <div class="wrap">
-        <p class="creed-title">Discipline · Respect · Excellence</p>
-        <p class="creed-line">National Taekwondo Player | Kerala State Gold Medalist</p>
-        <p class="creed-line">National Best Referee Award Holder</p>
-      </div>
-    </div>
-  </header>
+    </section>
 
   <main>
-    <section class="section" id="profile" aria-labelledby="about-title">
-      <div class="wrap">
-        <p class="kicker">Profile</p>
-        <h2 id="about-title">Professional Profile</h2>
-        <div class="panel">
-          <p class="prose">Master Mohamed Yoosaf M.V is a dedicated Taekwondo Master, Senior Instructor and Physical Education Teacher with 15 years of experience in Taekwondo.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="achievements" aria-labelledby="achievements-title">
-      <div class="wrap">
-        <p class="kicker">Credentials</p>
-        <h2 id="achievements-title">Rank &amp; Achievements</h2>
-        <div class="feature-list">
-          <article class="award">
-            <div class="award-icon" aria-hidden="true">
-              <svg class="icon" width="20" height="20" focusable="false"><use href="#i-belt"></use></svg>
-            </div>
-            <h3 class="award-title">4th Dan Black Belt</h3>
-          </article>
-          <article class="award">
-            <div class="award-icon" aria-hidden="true">
-              <svg class="icon" width="20" height="20" focusable="false"><use href="#i-medal"></use></svg>
-            </div>
-            <h3 class="award-title">National Best Referee Award Holder</h3>
-          </article>
-        </div>
-        <ul class="card-list">
-          <li class="cred">
-            <span class="cred-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-person"></use></svg></span>
-            <h3>National Taekwondo Player</h3>
-          </li>
-          <li class="cred">
-            <span class="cred-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-medal"></use></svg></span>
-            <h3>Kerala State Gold Medalist</h3>
-          </li>
-          <li class="cred">
-            <span class="cred-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-team"></use></svg></span>
-            <h3>Kerala Team Coach</h3>
-          </li>
-          <li class="cred">
-            <span class="cred-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-belt"></use></svg></span>
-            <h3>40 Students Advanced to Black Belt</h3>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="roles" aria-labelledby="roles-title">
-      <div class="wrap">
-        <p class="kicker">Roles</p>
-        <h2 id="roles-title">Professional Roles</h2>
-        <ul class="card-list">
-          <li class="role compact">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-belt"></use></svg></span>
-            <h3>Taekwondo Master</h3>
-          </li>
-          <li class="role compact">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-board"></use></svg></span>
-            <h3>Senior Taekwondo Instructor</h3>
-          </li>
-          <li class="role compact">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-person"></use></svg></span>
-            <h3>Physical Education Teacher</h3>
-          </li>
-          <li class="role compact">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-team"></use></svg></span>
-            <h3>Kerala State Team Coach</h3>
-          </li>
-          <li class="role compact">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-flag"></use></svg></span>
-            <h3>National Kyorugi Referee</h3>
-          </li>
-          <li class="role compact">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-child"></use></svg></span>
-            <h3>Specialized Children's Taekwondo Coach</h3>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="experience" aria-labelledby="experience-title">
-      <div class="wrap">
-        <p class="kicker">Experience</p>
-        <h2 id="experience-title">Professional Experience</h2>
-        <ul class="highlight-list">
-          <li>15 Years of Taekwondo Experience</li>
-          <li>Professional Coaching and Athlete Development</li>
-          <li>National-level Refereeing Experience</li>
-          <li>Children's Taekwondo Training and Development</li>
-          <li>Competition Preparation and Performance Coaching</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="specialties" aria-labelledby="specialties-title">
-      <div class="wrap">
-        <p class="kicker">Coaching</p>
-        <h2 id="specialties-title">Coaching Specialties</h2>
-        <ul class="specialty-list">
-          <li class="role">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-form"></use></svg></span>
-            <h3>Poomsae</h3>
-            <p>Technical Training &amp; Competition Preparation</p>
-          </li>
-          <li class="role">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-team"></use></svg></span>
-            <h3>Kyorugi</h3>
-            <p>Sparring Techniques &amp; Competition Coaching</p>
-          </li>
-          <li class="role">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-child"></use></svg></span>
-            <h3>Kids Training</h3>
-            <p>Specialized Children's Taekwondo Development</p>
-          </li>
-          <li class="role">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-shield"></use></svg></span>
-            <h3>Self-Defense</h3>
-            <p>Self-Defense &amp; Practical Taekwondo Techniques</p>
-          </li>
-          <li class="role">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-strength"></use></svg></span>
-            <h3>Physical Fitness</h3>
-            <p>Strength &amp; Flexibility Training</p>
-          </li>
-          <li class="role">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-belt"></use></svg></span>
-            <h3>Belt Advancement</h3>
-            <p>Beginner to Advanced and Black Belt Preparation</p>
-          </li>
-          <li class="role">
-            <span class="role-icon" aria-hidden="true"><svg class="icon" width="20" height="20" focusable="false"><use href="#i-heart"></use></svg></span>
-            <h3>Personal Development</h3>
-            <p>Discipline, Confidence &amp; Character Development</p>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section" id="programs" aria-labelledby="programs-title">
-      <div class="wrap">
-        <p class="kicker">Training</p>
-        <h2 id="programs-title">Training Programs</h2>
-        <ul class="chip-list">
-          <li>Kids</li>
-          <li>Juniors</li>
-          <li>Adults</li>
-          <li>Beginners</li>
-          <li>Advanced Athletes</li>
-          <li>Private Coaching</li>
-          <li>Competition Training</li>
-        </ul>
-        <a class="btn btn-primary enquiry" data-enquiry="Hello Master Mohamed Yoosaf M.V, I would like to enquire about training." href="https://wa.me/97335313206?text=Hello%20Master%20Mohamed%20Yoosaf%20M.V%2C%20I%20would%20like%20to%20enquire%20about%20training." target="_blank" rel="noopener noreferrer">Enquire About Training</a>
-      </div>
-    </section>
 
     <section class="section" id="biography" aria-labelledby="biography-title">
       <div class="wrap">
         <p class="kicker">Biography</p>
         <h2 id="biography-title">Full Biography</h2>
         <div class="panel">
-          <p class="prose">Master Mohamed Yoosaf M.V is a dedicated Taekwondo Master, Senior Instructor and Physical Education Teacher with 15 years of experience in Taekwondo. Holding a 4th Dan Black Belt, he is a National Kyorugi Referee, National Best Referee Award Holder, National Taekwondo Player and Kerala State Gold Medalist.</p>
+          <p class="prose">Master Mohamed Yoosaf M.V is a dedicated Taekwondo Master, Senior Instructor and Physical Education Teacher with 15 years of experience in Taekwondo. Holding a 4th Dan Black Belt, he is a National Kyorugi Referee, National Best Referee Award Holder, National Taekwondo Player and Kerala State Gold Medalist. Forty students have advanced to black belt under his coaching.</p>
           <details class="bio-more">
             <summary>
               <span class="when-closed">Read more</span>
@@ -365,74 +370,6 @@
         <div class="gallery-grid" data-gallery-list></div>
       </div>
     </section>
-
-    <section class="section" id="academy" aria-labelledby="academy-title">
-      <div class="wrap">
-        <p class="kicker">Affiliation</p>
-        <div class="panel affiliation">
-          <h2 id="academy-title">Excellent Taekwondo Academy</h2>
-          <p class="affiliation-place">Bahrain</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="contact" aria-labelledby="contact-title">
-      <div class="wrap">
-        <p class="kicker">Contact</p>
-        <h2 id="contact-title">Professional Contact</h2>
-        <div class="contact-layout">
-          <address class="contact-links">
-            <div class="contact-card">
-              <p class="kicker">Phone</p>
-              <a data-tel data-phone-text href="tel:+97335313206" translate="no">+973 35313206</a>
-            </div>
-            <div class="contact-card">
-              <p class="kicker">WhatsApp</p>
-              <a data-whatsapp data-phone-text href="https://wa.me/97335313206" target="_blank" rel="noopener noreferrer" translate="no">+973 35313206</a>
-            </div>
-            <div class="contact-card">
-              <p class="kicker">Email</p>
-              <a data-mail data-email-text href="mailto:mohmaedyoosafm.v@gmail.com" translate="no">mohmaedyoosafm.v@gmail.com</a>
-            </div>
-            <div class="contact-card">
-              <p class="kicker">Instagram</p>
-              <a data-instagram href="https://www.instagram.com/yoosafashraf/" target="_blank" rel="noopener noreferrer" translate="no">@yoosafashraf</a>
-            </div>
-          </address>
-          <div class="actions" role="group" aria-label="Contact actions">
-            <a class="btn btn-primary" href="contact.vcf" download="Master-Mohamed-Yoosaf-MV.vcf" data-save-contact>
-              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-card"></use></svg>
-              Save Contact
-            </a>
-            <div class="action-row is-trio" data-quick-actions>
-              <a class="btn btn-secondary" data-tel href="tel:+97335313206" aria-label="Call +973 35313206">
-                <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-phone"></use></svg>
-                Call
-              </a>
-              <a class="btn btn-secondary" data-whatsapp href="https://wa.me/97335313206" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp +973 35313206">
-                <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-chat"></use></svg>
-                WhatsApp
-              </a>
-              <a class="btn btn-secondary" data-mail href="mailto:mohmaedyoosafm.v@gmail.com" aria-label="Email mohmaedyoosafm.v@gmail.com">
-                <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-mail"></use></svg>
-                Email
-              </a>
-            </div>
-            <a class="btn btn-secondary" data-instagram href="https://www.instagram.com/yoosafashraf/" target="_blank" rel="noopener noreferrer">
-              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-instagram"></use></svg>
-              Instagram
-            </a>
-            <button class="btn btn-secondary" type="button" data-share hidden>
-              <svg class="icon" width="20" height="20" aria-hidden="true" focusable="false"><use href="#i-share"></use></svg>
-              Share Profile
-            </button>
-          </div>
-          <noscript>
-            <p class="noscript-note">Call, WhatsApp, email, Instagram, and Save Contact work in this browser. To share the profile, copy the page address.</p>
-          </noscript>
-        </div>
-      </div>
-    </section>
   </main>
 
   <footer class="footer">
@@ -442,6 +379,7 @@
       <p class="footer-copy">© <time datetime="2026">2026</time></p>
     </div>
   </footer>
+  </div>
 
   <div class="toast" id="status" role="status" aria-live="polite" aria-atomic="true"></div>
   <script src="script.js"></script>

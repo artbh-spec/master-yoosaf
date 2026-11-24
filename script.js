@@ -64,7 +64,39 @@ const SITE = {
     { group: "Academy", src: "assets/gallery/academy-families.jpg", alt: "Students, families, and instructors together at Excellent Taekwondo Academy.", caption: "Students and families", width: 1600, height: 1200 },
     { group: "Academy", src: "assets/gallery/promotion-test.jpg", alt: "A large group of students at a belt promotion test at Excellent Taekwondo Academy.", caption: "Belt promotion test", width: 1600, height: 900 },
     { group: "Academy", src: "assets/gallery/seminar-hall.jpg", alt: "Students seated in rows during a Taekwondo seminar in a large hall.", caption: "Taekwondo seminar", width: 1318, height: 1600 },
-    { group: "Academy", src: "assets/gallery/with-practitioners.jpg", alt: "Master Mohamed Yoosaf M.V with two fellow practitioners at Excellent Taekwondo Academy.", caption: "With fellow practitioners", width: 1200, height: 1600 }
+    { group: "Academy", src: "assets/gallery/with-practitioners.jpg", alt: "Master Mohamed Yoosaf M.V with two fellow practitioners at Excellent Taekwondo Academy.", caption: "With fellow practitioners", width: 1200, height: 1600 },
+
+    { group: "Recognition", src: "assets/gallery/best-referee-award.jpg", alt: "Master Mohamed Yoosaf M.V holding the Best Referee Kyorugi award at the 32nd National Sub-Junior Taekwondo Championships in Cuttack.", caption: "Best Referee, Kyorugi", width: 1200, height: 1600 },
+    { group: "Recognition", src: "assets/gallery/championship-winners-trophies.jpg", alt: "Master Mohamed Yoosaf M.V holding two winners trophies at an All Kerala Taekwondo Championship.", caption: "Winners trophies", width: 984, height: 1600 },
+    { group: "Recognition", src: "assets/gallery/national-cadet-honour.jpg", alt: "Master Mohamed Yoosaf M.V receiving a plaque at the 6th National Cadet Kyorugi and Poomsae Taekwondo Championship.", caption: "National Cadet Championship honour", width: 945, height: 1600 },
+    { group: "Recognition", src: "assets/gallery/kerala-state-2019.jpg", alt: "Master Mohamed Yoosaf M.V receiving an award at the 21st Kerala State Taekwondo Championship in 2019.", caption: "21st Kerala State Championship, 2019", width: 853, height: 853 },
+    { group: "Recognition", src: "assets/gallery/state-junior-award.jpg", alt: "Master Mohamed Yoosaf M.V receiving an award at a State Junior and Cadet Taekwondo Championship.", caption: "State Junior and Cadet award", width: 576, height: 576 },
+    { group: "Recognition", src: "assets/gallery/veterans-award.jpg", alt: "Master Mohamed Yoosaf M.V receiving an award on stage at a Veterans India state-level Taekwondo event.", caption: "Veterans state-level award", width: 648, height: 648 },
+    { group: "Recognition", src: "assets/gallery/outdoor-long-stance.jpg", alt: "Master Mohamed Yoosaf M.V in a long stance outdoors, wearing a white dobok and black belt.", caption: "Long stance outdoors", width: 1284, height: 1600 },
+
+    { group: "Coaching", src: "assets/gallery/young-student-stance.jpg", alt: "Master Mohamed Yoosaf M.V coaching a young student through a stance on the training mats.", caption: "Coaching a young student's stance", width: 1320, height: 1307 },
+    { group: "Coaching", src: "assets/gallery/gear-check.jpg", alt: "Master Mohamed Yoosaf M.V checking a student's chest guard before sparring.", caption: "Checking sparring gear", width: 1032, height: 581 },
+    { group: "Coaching", src: "assets/gallery/ringside-talk.jpg", alt: "Master Mohamed Yoosaf M.V speaking with an athlete in sparring gear at a competition.", caption: "Ringside coaching", width: 1200, height: 1600 },
+    { group: "Coaching", src: "assets/gallery/self-defence-hold.jpg", alt: "Master Mohamed Yoosaf M.V demonstrating a hold with a young student.", caption: "A self-defence hold", width: 768, height: 1024 },
+
+    { group: "Students", src: "assets/gallery/student-with-medal.jpg", alt: "Master Mohamed Yoosaf M.V with a student holding a competition medal.", caption: "A student with a medal", width: 768, height: 1024 },
+    { group: "Students", src: "assets/gallery/children-in-line.jpg", alt: "Children standing in line during class at Excellent Taekwondo Academy.", caption: "Children's class in line", width: 1024, height: 768 },
+    { group: "Students", src: "assets/gallery/children-training.jpg", alt: "Children training on the mats at Excellent Taekwondo Academy.", caption: "Children's training", width: 1024, height: 768 },
+    { group: "Students", src: "assets/gallery/children-class-floor.jpg", alt: "A children's class spread across the mats at Excellent Taekwondo Academy.", caption: "Children's class", width: 1024, height: 768 },
+
+    { group: "Competition", src: "assets/gallery/school-games-gold.jpg", alt: "A junior athlete with a gold medal beside Master Mohamed Yoosaf M.V at the 6th School Games.", caption: "Junior gold, 6th School Games", width: 898, height: 1600 },
+    { group: "Competition", src: "assets/gallery/team-trophy-hall.jpg", alt: "Master Mohamed Yoosaf M.V with a team as a trophy is presented in a hall.", caption: "Team trophy presentation", width: 1320, height: 970 },
+    { group: "Competition", src: "assets/gallery/medal-group.jpg", alt: "Master Mohamed Yoosaf M.V with students holding gold and silver medals.", caption: "Medal winners", width: 1098, height: 1600 },
+    { group: "Competition", src: "assets/gallery/runner-up-trophy.jpg", alt: "Master Mohamed Yoosaf M.V holding a runner-up trophy from a Kerala State Open Taekwondo Championship.", caption: "Runner-up trophy", width: 1075, height: 1600 },
+    { group: "Competition", src: "assets/gallery/medals-and-trophies.jpg", alt: "Athletes with medals and trophies, with Master Mohamed Yoosaf M.V among the group.", caption: "Medals and trophies", width: 1599, height: 755 },
+    { group: "Competition", src: "assets/gallery/team-with-trophy.jpg", alt: "A competition team posing with a trophy in a stadium.", caption: "Championship team with the trophy", width: 1152, height: 544 },
+
+    { group: "Academy", src: "assets/gallery/hall-conditioning.jpg", alt: "A packed training hall, with students holding a push-up position.", caption: "Conditioning in a packed hall", width: 1045, height: 1600 },
+    { group: "Academy", src: "assets/gallery/students-at-attention.jpg", alt: "Students standing at attention in the Excellent Taekwondo Academy hall.", caption: "Students at attention", width: 1320, height: 933 },
+    { group: "Academy", src: "assets/gallery/black-belt-line.jpg", alt: "Black belts standing in line at Excellent Taekwondo Academy.", caption: "Black belts in line", width: 1308, height: 869 },
+    { group: "Academy", src: "assets/gallery/academy-black-belts.jpg", alt: "Masters and students in doboks posing at Excellent Taekwondo Academy.", caption: "Academy black belts", width: 1440, height: 957 },
+    { group: "Academy", src: "assets/gallery/outdoor-squad.jpg", alt: "Students and instructors seated outdoors for an academy group photograph.", caption: "Academy squad outdoors", width: 1000, height: 446 },
+    { group: "Academy", src: "assets/gallery/outdoor-academy-group.jpg", alt: "A large academy group in doboks posing outdoors.", caption: "Academy group outdoors", width: 1156, height: 651 }
   ]
 };
 
@@ -535,6 +567,12 @@ async function shareProfile() {
 function init() {
   applyContact();
   renderGallery();
+  document.querySelectorAll(".nav a").forEach(function (link) {
+    link.addEventListener("click", function () {
+      var toggle = document.getElementById("nav-toggle");
+      if (toggle) toggle.checked = false;
+    });
+  });
   document.querySelectorAll("[data-save-contact]").forEach(function (el) {
     el.addEventListener("click", saveContact);
   });
