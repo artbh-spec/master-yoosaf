@@ -24,8 +24,8 @@ const SITE = {
     url: "https://www.instagram.com/yoosafashraf/"
   },
   enquiryMessage: "Hello Master Mohamed Yoosaf M.V, I would like to enquire about training.",
-  shareText: "Master Mohamed Yoosaf M.V — 4th Dan Black Belt, National Player and Senior Taekwondo Instructor.",
-  vcardNote: "4th Dan Black Belt. National Player. National Referee. Senior Taekwondo Instructor. Kerala Team Coach. 15 years of Taekwondo experience. 40 students advanced to Black Belt. National Best Referee Award holder. Kerala State Gold Medalist. Excellent Taekwondo Academy, Bahrain.",
+  shareText: "Master Mohamed Yoosaf M.V — 4th Dan Black Belt, National Player, Senior Taekwondo Instructor and Personal Trainer.",
+  vcardNote: "4th Dan Black Belt. National Player. National Referee. Senior Taekwondo Instructor. Personal Trainer. Kerala Team Coach. 15 years of Taekwondo experience. 40 students advanced to Black Belt. National Best Referee Award holder. Kerala State Gold Medalist. Excellent Taekwondo Academy, Bahrain.",
   vcardFilename: "Master-Mohamed-Yoosaf-MV.vcf",
   /**
    * Real photographs only. Leave this empty to keep the gallery hidden.
@@ -150,7 +150,7 @@ function buildVCard() {
     "N:;" + escapeVCard(SITE.fullName) + ";;;",
     "FN:" + escapeVCard(SITE.fullName),
     "TITLE:" + escapeVCard(SITE.title),
-    "ROLE:Senior Taekwondo Instructor",
+    "ROLE:Senior Taekwondo Instructor and Personal Trainer",
     "TEL;TYPE=CELL:" + escapeVCard(tel),
     "EMAIL;TYPE=INTERNET:" + escapeVCard(SITE.email),
     "URL:" + escapeVCard(window.location.href),

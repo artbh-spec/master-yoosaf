@@ -270,7 +270,7 @@ section[id] {
 .story-photo img {
   width: 100%;
   height: auto;
-  aspect-ratio: 935 / 1024;
+  aspect-ratio: 819 / 1024;
   object-fit: cover;
   object-position: center;
   border: 1px solid rgba(212, 177, 90, 0.4);
@@ -976,7 +976,7 @@ body.lightbox-open {
   }
 
   .marks {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: 1fr 1fr;
   }
 
   .marks li {
@@ -987,11 +987,11 @@ body.lightbox-open {
   }
 
   .achieve-row {
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
   .icon-row {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(132px, 1fr));
   }
 
   .panel-photo {
@@ -1113,7 +1113,7 @@ body.lightbox-open {
     height: auto;
     min-height: 0;
     max-height: min(82vh, 820px);
-    aspect-ratio: 935 / 1024;
+    aspect-ratio: 819 / 1024;
     object-fit: contain;
     object-position: center;
   }
